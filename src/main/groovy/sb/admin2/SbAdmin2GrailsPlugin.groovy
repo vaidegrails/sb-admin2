@@ -11,34 +11,33 @@ class SbAdmin2GrailsPlugin extends Plugin {
         "grails-app/views/error.gsp"
     ]
 
-    // TODO Fill in these fields
     def title = "Sb Admin2" // Headline display name of the plugin
-    def author = "Your name"
-    def authorEmail = ""
+    def author = "Bruno Lorenço Lopes"
+    def authorEmail = "contato@vaidegrails.com"
     def description = '''\
-Brief summary/description of the plugin.
+Plugin to easily integrate SB-Admin 2 (http://startbootstrap.com/template-overviews/sb-admin-2/) to a Grails project.
 '''
     def profiles = ['web']
 
     // URL to the plugin's documentation
-    def documentation = "http://grails.org/plugin/sb-admin2"
+    def documentation = "https://github.com/vaidegrails/sb-admin2"
 
     // Extra (optional) plugin metadata
 
     // License: one of 'APACHE', 'GPL2', 'GPL3'
-//    def license = "APACHE"
+    def license = "APACHE"
 
     // Details of company behind the plugin (if there is one)
-//    def organization = [ name: "My Company", url: "http://www.my-company.com/" ]
+    def organization = [ name: "Vai de Grails!", url: "http://www.vaidegrails.com/" ]
 
     // Any additional developers beyond the author specified above.
 //    def developers = [ [ name: "Joe Bloggs", email: "joe@bloggs.net" ]]
 
     // Location of the plugin's issue tracker.
-//    def issueManagement = [ system: "JIRA", url: "http://jira.grails.org/browse/GPMYPLUGIN" ]
+    def issueManagement = [ system: "GITHUB", url: "https://github.com/vaidegrails/sb-admin2" ]
 
     // Online location of the plugin's browseable source code.
-//    def scm = [ url: "http://svn.codehaus.org/grails-plugins/" ]
+    def scm = [ url: "http://svn.codehaus.org/grails-plugins/" ]
 
     Closure doWithSpring() { {->
             // TODO Implement runtime spring config (optional)
