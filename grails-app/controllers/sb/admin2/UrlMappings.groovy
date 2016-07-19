@@ -9,7 +9,7 @@ class UrlMappings {
             }
         }
 
-        "/"(view:"/index")
+        "/"(view:"/sb-admin2/index")
         "500"(view:'/error')
         "404"(view:'/notFound')
     }
