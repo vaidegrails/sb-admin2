@@ -9,6 +9,9 @@
 //= require jquery-2.2.0.min
 //= require bootstrap
 //= require metismenu/metisMenu
+//= require morris.js/morris
+//= require raphaeljs/raphael
+//= require sb-admin2/sb-admin-2
 //= require_self
 
 if (typeof jQuery !== 'undefined') {

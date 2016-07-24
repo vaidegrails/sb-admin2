@@ -922,27 +922,27 @@
 
     </div>
     <!-- /#wrapper -->
-
+    <asset:javascript src="application.js"/>
     <!-- jQuery -->
     <!--<script src="../bower_components/jquery/dist/jquery.min.js"></script>-->
-    <asset:javascript src="jquery-2.2.0.min.js"/>
+    <!--<asset:javascript src="jquery-2.2.0.min.js"/>-->
 
     <!-- Bootstrap Core JavaScript -->
     <!--<script src="../bower_components/bootstrap/dist/js/bootstrap.min.js"></script>-->
-    <asset:javascript src="bootstrap.js"/>
+    <!--<asset:javascript src="bootstrap.js"/>-->
     <!-- Metis Menu Plugin JavaScript -->
     <!--<script src="../bower_components/metisMenu/dist/metisMenu.min.js"></script>-->
-    <asset:javascript src="metismenu/metisMenu.js"/>
+    <!--<asset:javascript src="metismenu/metisMenu.js"/>-->
     <!-- Morris Charts JavaScript -->
     <!--<script src="../bower_components/raphaeljs/raphael-min.js"></script>-->
-    <asset:javascript src="raphaeljs/raphael.js"/>
+    <!--<asset:javascript src="raphaeljs/raphael.js"/>-->
     <!--<script src="../bower_components/morrisjs/morris.min.js"></script>-->
-    <asset:javascript src="morris.js/morris.js"/>
+    <!--<asset:javascript src="morris.js/morris.js"/>-->
     <!--<script src="../js/morris-data.js"></script>-->
     <asset:javascript src="sb-admin2/morris-data.js"/>
     <!-- Custom Theme JavaScript -->
     <!--<script src="../dist/js/sb-admin-2.js"></script>-->
-    <asset:javascript src="sb-admin2/sb-admin-2.js"/>
+    <!--<asset:javascript src="sb-admin2/sb-admin-2.js"/>-->
 
 </body>
 
